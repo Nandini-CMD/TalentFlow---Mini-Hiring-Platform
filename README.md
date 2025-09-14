@@ -28,11 +28,11 @@ It allows HR teams and recruiters to **manage jobs, candidates, and assessments*
 ## 🎨 UI Preview
 
 <p align="center">
-  ![Job Listing Screenshot](./Screenshot%202025-09-15%20003754.png)
+  ![Job Listing Screenshot]("C:\Users\Sumit\OneDrive\Pictures\Screenshots 1\Screenshot 2025-09-15 003825.png")
 </p>
 
 <p align="center">
-  ![Dashboard Screenshot](./Screenshot%202025-09-15%20003825.png)
+  ![Dashboard Screenshot]("C:\Users\Sumit\OneDrive\Pictures\Screenshots 1\Screenshot 2025-09-15 003754.png")
 </p>
 
 ---
