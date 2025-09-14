@@ -86,3 +86,42 @@ This allows you to assess whether candidates have the required expertise before 
 ```bash
 git clone https://github.com/Nandini-CMD/TalentFlow---Mini-Hiring-Platform.git
 cd TalentFlow---Mini-Hiring-Platform
+
+## 📦 Installation
+
+1. Install dependencies:
+
+```bash
+npm install
+Run the development server:
+
+bash
+Copy code
+npm run dev
+Build for production:
+
+bash
+Copy code
+npm run build
+Preview the production build:
+
+bash
+Copy code
+npm run preview
+---
+
+## 🚀 Future Scope
+We aim to continuously enhance the platform with new features to improve the recruitment process:
+
+✅ Role-based access for HR managers, candidates, and admins to manage permissions securely.
+
+✅ Email notifications for job openings, interview scheduling, and candidate feedback.
+
+✅ Detailed analytics dashboards to track recruitment KPIs and assessment trends.
+
+✅ Mobile-first design to ensure seamless usage on phones and tablets.
+
+✅ Integration with popular recruitment tools and APIs for streamlined hiring.
+
+🤝 Contributions
+We welcome contributions! Whether it's fixing bugs, improving UI, or adding features, your help is appreciated. Fork the repository, make improvements, and submit a pull request.
