@@ -30,11 +30,11 @@ It allows HR teams and recruiters to <b>manage jobs, candidates, and assessments
 <p>Add screenshots of your app here for better presentation.</p>
 
 <p align="center">
-  <img src="screenshots/dashboard.png" alt="Dashboard Screenshot" width="700">
+  <img src=""C:\Users\Sumit\OneDrive\Pictures\Screenshots 1\Screenshot 2025-09-15 003754.png"" alt="Dashboard Screenshot" width="700">
 </p>
 
 <p align="center">
-  <img src="screenshots/job-listing.png" alt="Job Listing Screenshot" width="700">
+  <img src=""C:\Users\Sumit\OneDrive\Pictures\Screenshots 1\Screenshot 2025-09-15 003825.png"" alt="Job Listing Screenshot" width="700">
 </p>
 
 <p><i>(Place images inside a <code>screenshots/</code> folder in your repo and update the file paths.)</i></p>
