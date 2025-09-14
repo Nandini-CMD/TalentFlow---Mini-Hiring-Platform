@@ -119,6 +119,7 @@ We aim to continuously enhance the platform with new features to improve the rec
 - ✅ Mobile-first design to ensure seamless usage on phones and tablets.
 - ✅ Integration with popular recruitment tools and APIs for streamlined hiring.
 
+---
 ##🤝 Contributions
 
 We welcome contributions! Whether it's fixing bugs, improving UI, or adding features, your help is appreciated. Fork the repository, make improvements, and submit a pull request.
