@@ -36,11 +36,11 @@
 <h2 style="text-align: center;">🎨 UI Preview</h2>
 
 <p style="text-align: center;">
-    <img src="Screenshot 2025-09-15 003754.png" alt="Job Listing Screenshot" width="700" />
+    <img src=""C:\Users\Sumit\OneDrive\Pictures\Screenshots 1\Screenshot 2025-09-15 003754.png"" alt="Job Listing Screenshot" width="700" />
 </p>
 
 <p style="text-align: center;">
-    <img src="Screenshot 2025-09-15 003825.png" alt="Dashboard Screenshot" width="700" />
+    <img src=""C:\Users\Sumit\OneDrive\Pictures\Screenshots 1\Screenshot 2025-09-15 003825.png"" alt="Dashboard Screenshot" width="700" />
 </p>
 
 <hr />
