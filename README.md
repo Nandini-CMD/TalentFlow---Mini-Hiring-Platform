@@ -1,96 +1,112 @@
-# TalentFlow - Mini Hiring Platform  
+🌟 TalentFlow - Mini Hiring Platform
 
-TalentFlow is a modern **mini hiring platform** designed to streamline the recruitment process for small to medium organizations. It provides features for **job posting, candidate management, and assessments** in a lightweight, scalable web application.  
+TalentFlow is a modern mini hiring platform designed to simplify recruitment. It allows HR teams and recruiters to manage jobs, candidates, and assessments in an intuitive and efficient way.
 
----
+🔗 Live App: Deployed App Link
 
-## 🚀 Features  
+📂 GitHub Repo: TalentFlow Repository
 
-- **Job Management** – Create, edit, and manage job postings.  
-- **Candidate Tracking** – Store and view candidate details, resumes, and application status.  
-- **Assessments** – Conduct simple online skill tests.  
-- **Responsive UI** – Built with React + TailwindCSS for a clean, modern interface.  
-- **Scalable Setup** – TypeScript + modular architecture for maintainability.  
+🌐 Website: TalentFlow Website
 
----
+🚀 Features
 
-## 📂 Dataset / Storage  
+📝 Job Management – Create, update, and publish job postings.
 
-- Candidate and job data can be integrated with an API (future enhancement).  
-- Currently uses local mock data / JSON (depending on your setup).  
+👥 Candidate Tracking – View and manage applicant details.
 
----
+🧑‍💻 Assessments – Integrate skill assessments for better hiring decisions.
 
-## 🛠️ Tech Stack  
+📊 Dashboard – Get an overview of jobs, applicants, and progress.
 
-- **Frontend**: React, TypeScript  
-- **Styling**: TailwindCSS, PostCSS, Autoprefixer  
-- **Build Tool**: Vite  
-- **Config**: `tsconfig.json`, `postcss.config.js`, `tailwind.config.ts`  
+🎨 Modern UI – Built with React + Tailwind for a clean, responsive design.
 
----
+⚙️ Tech Stack
 
-## 📊 File Structure  
+Frontend: React + TypeScript
 
-```bash
+Styling: TailwindCSS + shadcn/ui
+
+components
+
+Bundler: Vite
+
+tsconfig.node
+
+Linting: ESLint with React Hooks & TypeScript rules
+
+eslint.config
+
+Config & Setup: Node.js + TS configs
+
+🏗️ Architecture
 TalentFlow/
-│── index.html                # Entry point
-│── tsconfig.json             # TypeScript config
-│── tsconfig.app.json         # App-specific TypeScript config
-│── tailwind.config.ts        # TailwindCSS configuration
-│── postcss.config.js         # PostCSS configuration
+│── public/              # Static files
 │── src/
-│   ├── main.tsx              # App entry (React DOM render)
-│   ├── App.tsx               # Root component
-│   ├── components/           # Reusable UI components
-│   ├── pages/                # Pages (Jobs, Candidates, Assessments)
-│   └── assets/               # Static files
-⚙️ Setup and Installation
-Prerequisites
-Node.js (v16+)
+│   ├── components/      # Reusable UI components
+│   ├── pages/           # Main pages (Jobs, Candidates, Dashboard, etc.)
+│   ├── hooks/           # Custom React hooks
+│   ├── lib/             # Utility functions
+│   ├── index.css        # Tailwind styles
+│   └── main.tsx         # Entry point
+│
+│── index.html           # Base HTML template
+│── tailwind.config.ts   # Tailwind setup
+│── tsconfig.node.json   # TypeScript configuration
+│── eslint.config.js     # ESLint setup
 
-npm or yarn
+🛠️ Setup & Installation
 
-Clone the Repository
-bash
-Copy code
-git clone https://github.com/yourusername/TalentFlow.git
-cd TalentFlow
-Install Dependencies
-bash
-Copy code
+Clone the repo
+
+git clone https://github.com/Nandini-CMD/TalentFlow---Mini-Hiring-Platform.git
+cd TalentFlow---Mini-Hiring-Platform
+
+
+Install dependencies
+
 npm install
-# or
-yarn install
-Run the Development Server
-bash
-Copy code
+
+
+Run the development server
+
 npm run dev
-The app will be available at: http://localhost:5173 (default Vite port).
 
-🔗 Usage
-Navigate to the Jobs Page → create/manage job postings.
 
-Open Candidates Page → track applicants.
+Build for production
 
-Use Assessments Page → conduct simple hiring assessments.
+npm run build
 
-🌱 Future Enhancements
- API integration with backend (Node.js + Express + DB)
 
- Authentication for recruiters and candidates
+Preview production build
 
- Resume parsing using AI/ML
+npm run preview
 
- Analytics dashboard for hiring insights
+🤔 Issues & Challenges
 
-🤝 Contributing
-Fork the repo
+Handling scalable candidate data storage for future improvements.
 
-Create your feature branch (git checkout -b feature-name)
+Balancing minimal design vs. full HRM features.
 
-Commit your changes (git commit -m 'Add feature')
+Integration with third-party assessment tools.
 
-Push to the branch (git push origin feature-name)
+💡 Technical Decisions
 
-Open a Pull Request
+React + Vite for fast builds and modern dev experience.
+
+TypeScript for better maintainability and type safety.
+
+TailwindCSS + shadcn/ui for rapid, consistent UI development.
+
+ESLint + strict TypeScript config to enforce clean code.
+
+📌 Future Improvements
+
+Role-based authentication (HR, Candidate, Admin).
+
+Email notifications for job updates.
+
+Advanced analytics dashboard.
+
+Mobile-first optimization.
+
+✨ TalentFlow is built to make hiring simpler, smarter, and more efficient.
