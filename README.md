@@ -1,142 +1,135 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8" />
-    <title>TalentFlow - Mini Hiring Platform</title>
-</head>
-<body>
-
-<h1 align="center">🌟 TalentFlow - Mini Hiring Platform</h1>
+# 🌟 TalentFlow - Mini Hiring Platform
 
 <p align="center">
-    <a href="https://github.com/Nandini-CMD/TalentFlow---Mini-Hiring-Platform/tree/main">
-        <img src="https://img.shields.io/badge/GitHub-TalentFlow-blue?logo=github" alt="GitHub Repo" />
-    </a>
-    <a href="https://assessment-ace-kit-6ai1.vercel.app/">
-        <img src="https://img.shields.io/badge/Live_App-Vercel-success?logo=vercel" alt="Live Demo" />
-    </a>
-    <img src="https://img.shields.io/badge/License-MIT-green" alt="License" />
-    <img src="https://img.shields.io/badge/Status-Active-brightgreen" alt="Status" />
+  <a href="https://github.com/Nandini-CMD/TalentFlow---Mini-Hiring-Platform/tree/main">
+    <img src="https://img.shields.io/badge/GitHub-TalentFlow-blue?logo=github" alt="GitHub Repo" />
+  </a>
+  <a href="https://assessment-ace-kit-6ai1.vercel.app/">
+    <img src="https://img.shields.io/badge/Live_App-Vercel-success?logo=vercel" alt="Live Demo" />
+  </a>
+  <img src="https://img.shields.io/badge/License-MIT-green" alt="License" />
+  <img src="https://img.shields.io/badge/Status-Active-brightgreen" alt="Status" />
 </p>
 
-<hr />
+---
 
 <p align="center">
-    TalentFlow is a modern <b>mini hiring platform</b> designed to simplify recruitment.<br />
-    It allows HR teams and recruiters to <b>manage jobs, candidates, and assessments</b> in an intuitive and efficient way.
+TalentFlow is a modern **mini hiring platform** designed to simplify recruitment.<br />
+It allows HR teams and recruiters to **manage jobs, candidates, and assessments** in an intuitive and efficient way.
 </p>
 
 <p align="center">
-    🔗 <b>Live App:</b> <a href="https://assessment-ace-kit-6ai1.vercel.app/">Deployed App Link</a><br />
-    📂 <b>GitHub Repo:</b> <a href="https://github.com/Nandini-CMD/TalentFlow---Mini-Hiring-Platform/tree/main">TalentFlow Repository</a>
+🔗 **Live App:** [Deployed App Link](https://assessment-ace-kit-6ai1.vercel.app/)<br />
+📂 **GitHub Repo:** [TalentFlow Repository](https://github.com/Nandini-CMD/TalentFlow---Mini-Hiring-Platform/tree/main)
 </p>
 
-<hr />
+---
 
-<h2>🎨 UI Preview</h2>
+## 🎨 UI Preview
+
 <p align="center">
-    <img src="assets/Screenshot_1.png" alt="Dashboard Screenshot" width="700" />
+  <img src="Screenshot 2025-09-15 003754.png" alt="Job Listing Screenshot" width="700" />
 </p>
+
 <p align="center">
-    <img src="assets/Screenshot_2.png" alt="Job Listing Screenshot" width="700" />
+  <img src="Screenshot 2025-09-15 003825.png" alt="Dashboard Screenshot" width="700" />
 </p>
 
-<hr />
+---
 
-<h2>🚀 Features</h2>
-<ul>
-    <li>📝 Create, update, and publish job postings</li>
-    <li>👥 Manage and track applicants easily</li>
-    <li>🧑‍💻 Conduct and integrate skill assessments</li>
-    <li>📊 Dashboard overview of jobs & candidates</li>
-    <li>🎨 Responsive and modern UI with TailwindCSS</li>
-</ul>
+## 🚀 Features
 
-<hr />
+- 📝 Create, update, and publish job postings
+- 👥 Manage and track applicants easily
+- 🧑‍💻 Conduct and integrate skill assessments
+- 📊 Dashboard overview of jobs & candidates
+- 🎨 Responsive and modern UI with TailwindCSS
 
-<h2>⚙️ Tech Stack</h2>
-<ul>
-    <li><b>Frontend:</b> React + TypeScript</li>
-    <li><b>Styling:</b> TailwindCSS + shadcn/ui</li>
-    <li><b>Bundler:</b> Vite</li>
-    <li><b>Linting:</b> ESLint (React + TypeScript rules)</li>
-    <li><b>Config:</b> Node.js + TS configs</li>
-</ul>
+---
 
-<hr />
+## ⚙️ Tech Stack
 
-<h2>🏗️ Project Structure</h2>
-<pre>
+- **Frontend:** React + TypeScript
+- **Styling:** TailwindCSS + shadcn/ui
+- **Bundler:** Vite
+- **Linting:** ESLint (React + TypeScript rules)
+- **Config:** Node.js + TS configs
+
+---
+
+## 🏗️ Project Structure
+
 TalentFlow/
-├── public/              # Static files
-├── assets/              # Screenshots and images
+├── public/ # Static files
 ├── src/
-│   ├── components/      # Reusable UI components
-│   ├── pages/           # Main pages (Jobs, Candidates, Dashboard)
-│   ├── hooks/           # Custom React hooks
-│   ├── lib/             # Utilities
-│   ├── index.css        # Global styles
-│   └── main.tsx         # Entry point
-├── index.html           # HTML template
-├── tailwind.config.ts   # Tailwind config
-├── tsconfig.node.json   # TypeScript config
-└── eslint.config.js     # ESLint config
-</pre>
+│ ├── components/ # Reusable UI components
+│ ├── pages/ # Main pages (Jobs, Candidates, Dashboard)
+│ ├── hooks/ # Custom React hooks
+│ ├── lib/ # Utilities
+│ ├── index.css # Global styles
+│ └── main.tsx # Entry point
+├── index.html # HTML template
+├── tailwind.config.ts # Tailwind config
+├── tsconfig.node.json # TypeScript config
+├── eslint.config.js # ESLint config
+├── Screenshot 2025-09-15 003754.png
+└── Screenshot 2025-09-15 003825.png
 
-<hr />
+yaml
+Copy code
 
-<h2>🛠️ Setup & Installation</h2>
-<ol>
-    <li>Clone the repo:
-        <pre>git clone https://github.com/Nandini-CMD/TalentFlow---Mini-Hiring-Platform.git
-cd TalentFlow---Mini-Hiring-Platform</pre>
-    </li>
-    <li>Install dependencies:
-        <pre>npm install</pre>
-    </li>
-    <li>Run development server:
-        <pre>npm run dev</pre>
-    </li>
-    <li>Build for production:
-        <pre>npm run build</pre>
-    </li>
-    <li>Preview production build:
-        <pre>npm run preview</pre>
-    </li>
-</ol>
+---
 
-<hr />
+## 🛠️ Setup & Installation
 
-<h2>🤔 Issues & Challenges</h2>
-<ul>
-    <li>Scaling candidate data storage</li>
-    <li>Balancing minimal design with full HR features</li>
-    <li>Integration with third-party assessment tools</li>
-</ul>
+1. Clone the repository
 
-<hr />
+```bash
+git clone https://github.com/Nandini-CMD/TalentFlow---Mini-Hiring-Platform.git
+cd TalentFlow---Mini-Hiring-Platform
+Install dependencies
 
-<h2>💡 Technical Decisions</h2>
-<ul>
-    <li>Chose <b>React + Vite</b> for modern dev experience</li>
-    <li>Added <b>TypeScript</b> for maintainability</li>
-    <li>Used <b>TailwindCSS + shadcn/ui</b> for fast, clean UI</li>
-    <li>Configured <b>ESLint + TS strict mode</b> for clean code</li>
-</ul>
+bash
+Copy code
+npm install
+Run the development server
 
-<hr />
+bash
+Copy code
+npm run dev
+Build for production
 
-<h2>📌 Future Improvements</h2>
-<ul>
-    <li>Role-based authentication (HR, Candidate, Admin)</li>
-    <li>Email notifications for job updates</li>
-    <li>Analytics dashboard for insights</li>
-    <li>Mobile-first optimization</li>
-</ul>
+bash
+Copy code
+npm run build
+Preview the production build
 
-<hr />
+bash
+Copy code
+npm run preview
+🤔 Issues & Challenges
+Scaling candidate data storage
 
-<h3 align="center">✨ TalentFlow is built to make hiring simpler, smarter, and more efficient. ✨</h3>
+Balancing minimal design with full HR features
 
-</body>
-</html>
+Integration with third-party assessment tools
+
+💡 Technical Decisions
+Chose React + Vite for modern dev experience
+
+Added TypeScript for maintainability
+
+Used TailwindCSS + shadcn/ui for fast, clean UI
+
+Configured ESLint + TS strict mode for clean code
+
+📌 Future Improvements
+Role-based authentication (HR, Candidate, Admin)
+
+Email notifications for job updates
+
+Analytics dashboard for insights
+
+Mobile-first optimization
+
+<h3 align="center">✨ TalentFlow is built to make hiring simpler, smarter, and more efficient. ✨</h3> ```
