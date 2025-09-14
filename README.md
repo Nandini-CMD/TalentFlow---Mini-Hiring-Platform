@@ -1,65 +1,78 @@
-🌟 TalentFlow - Mini Hiring Platform
+# 🌟 TalentFlow - Mini Hiring Platform  
 
-TalentFlow is a modern mini hiring platform designed to simplify recruitment. It allows HR teams and recruiters to manage jobs, candidates, and assessments in an intuitive and efficient way.
+[![GitHub Repo](https://img.shields.io/badge/GitHub-TalentFlow-blue?logo=github)](https://github.com/Nandini-CMD/TalentFlow---Mini-Hiring-Platform/tree/main)  
+[![Live Demo](https://img.shields.io/badge/Live_App-Vercel-success?logo=vercel)](https://assessment-ace-kit-6ai1.vercel.app/)  
+![License](https://img.shields.io/badge/License-MIT-green)  
+![Status](https://img.shields.io/badge/Status-Active-brightgreen)  
 
-🔗 Live App: Deployed App Link
+---
 
-📂 GitHub Repo: TalentFlow Repository
+TalentFlow is a modern **mini hiring platform** designed to simplify recruitment. It allows HR teams and recruiters to **manage jobs, candidates, and assessments** in an intuitive and efficient way.  
 
-🌐 Website: TalentFlow Website
+🔗 **Live App:** [Deployed App Link](https://assessment-ace-kit-6ai1.vercel.app/)  
+📂 **GitHub Repo:** [TalentFlow Repository](https://github.com/Nandini-CMD/TalentFlow---Mini-Hiring-Platform/tree/main)  
+🌐 **Website:** [TalentFlow Website](https://assessment-ace-kit-6ai1.vercel.app/)  
 
-🚀 Features
+---
 
-📝 Job Management – Create, update, and publish job postings.
+## 🎨 UI Preview  
 
-👥 Candidate Tracking – View and manage applicant details.
+Here’s a quick look at the TalentFlow interface:  
 
-🧑‍💻 Assessments – Integrate skill assessments for better hiring decisions.
+<p align="center">
+  <img src="screenshots/dashboard.png" alt="Dashboard Screenshot" width="700"/>
+</p>
 
-📊 Dashboard – Get an overview of jobs, applicants, and progress.
+<p align="center">
+  <img src="screenshots/job-listing.png" alt="Job Listing Screenshot" width="700"/>
+</p>
 
-🎨 Modern UI – Built with React + Tailwind for a clean, responsive design.
+*(Add your own screenshots inside a `screenshots/` folder and update the file names above)*  
 
-⚙️ Tech Stack
+---
 
-Frontend: React + TypeScript
+## 🚀 Features
+- 📝 **Job Management** – Create, update, and publish job postings.  
+- 👥 **Candidate Tracking** – View and manage applicant details.  
+- 🧑‍💻 **Assessments** – Integrate skill assessments for better hiring decisions.  
+- 📊 **Dashboard** – Get an overview of jobs, applicants, and progress.  
+- 🎨 **Modern UI** – Built with React + Tailwind for a clean, responsive design.  
 
-Styling: TailwindCSS + shadcn/ui
+---
 
-components
+## ⚙️ Tech Stack
+- **Frontend:** React + TypeScript  
+- **Styling:** TailwindCSS + shadcn/ui  
+- **Bundler:** Vite  
+- **Linting:** ESLint with React Hooks & TypeScript rules  
+- **Config & Setup:** Node.js + TS configs  
 
-Bundler: Vite
+---
 
-tsconfig.node
-
-Linting: ESLint with React Hooks & TypeScript rules
-
-eslint.config
-
-Config & Setup: Node.js + TS configs
-
-🏗️ Architecture
+## 🏗️ Architecture
 TalentFlow/
-│── public/              # Static files
+│── public/ # Static files
 │── src/
-│   ├── components/      # Reusable UI components
-│   ├── pages/           # Main pages (Jobs, Candidates, Dashboard, etc.)
-│   ├── hooks/           # Custom React hooks
-│   ├── lib/             # Utility functions
-│   ├── index.css        # Tailwind styles
-│   └── main.tsx         # Entry point
+│ ├── components/ # Reusable UI components
+│ ├── pages/ # Main pages (Jobs, Candidates, Dashboard, etc.)
+│ ├── hooks/ # Custom React hooks
+│ ├── lib/ # Utility functions
+│ ├── index.css # Tailwind styles
+│ └── main.tsx # Entry point
 │
-│── index.html           # Base HTML template
-│── tailwind.config.ts   # Tailwind setup
-│── tsconfig.node.json   # TypeScript configuration
-│── eslint.config.js     # ESLint setup
+│── index.html # Base HTML template
+│── tailwind.config.ts # Tailwind setup
+│── tsconfig.node.json # TypeScript configuration
+│── eslint.config.js # ESLint setup
 
-🛠️ Setup & Installation
 
-Clone the repo
+---
 
-git clone https://github.com/Nandini-CMD/TalentFlow---Mini-Hiring-Platform.git
-cd TalentFlow---Mini-Hiring-Platform
+## 🛠️ Setup & Installation
+1. **Clone the repo**
+   ```bash
+   git clone https://github.com/Nandini-CMD/TalentFlow---Mini-Hiring-Platform.git
+   cd TalentFlow---Mini-Hiring-Platform
 
 
 Install dependencies
@@ -108,5 +121,3 @@ Email notifications for job updates.
 Advanced analytics dashboard.
 
 Mobile-first optimization.
-
-✨ TalentFlow is built to make hiring simpler, smarter, and more efficient.
